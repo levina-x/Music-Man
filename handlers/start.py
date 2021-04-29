@@ -32,7 +32,7 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📚 daftar perintah & cara menggunakan", url="https://t.me/Lunatic0de/20")
+                        "📚 daftar perintah & cara menggunakan", url="https://telegra.ph/command-list-04-24")
                   ],[
                     InlineKeyboardButton(
                         "Group Support", url="https://t.me/gcsupportbots"
