@@ -49,7 +49,7 @@
 Gabung Ke [Channel Support](https://t.me/levinachannel)
 
 ### Credits
-- [levina](https://github.com/levina-x)
+- [levina](https://github.com/levina-x) owner
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
