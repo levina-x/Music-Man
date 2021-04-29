@@ -1,4 +1,4 @@
-<h1 align="centre">🎵 VEEZ MUSIC BOT</h1>
+<h1 align="centre">VEEZ MUSIC BOT</h1>
 
 ### Bot yang dapat memutar musik di voice chat group anda.
 
@@ -42,7 +42,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrismanaziz/Music-Man)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veez-music)
 
 ### Generate String Session
 
