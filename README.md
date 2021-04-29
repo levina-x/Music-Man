@@ -1,8 +1,8 @@
-<h1 align="centre">🎵 BOT MUSIC MAN 🎵</h1>
+<h1 align="centre">🎵 VEEZ MUSIC BOT</h1>
 
-### A bot that can play music on telegram group's voice call
+### Bot yang dapat memutar musik di voice chat group anda.
 
-<h2> Whats new 🔥 </h2>
+<h2> apa yang baru? 🔥 </h2>
 
 - Thumbnail Support
 - Playlist Support
@@ -46,10 +46,10 @@
 
 ### Generate String Session
 
-Gabung Ke [Grup Support](https://t.me/sharinguserbot) Man-UserBot Lalu Ketik #string [TEKAN DISINI](https://t.me/sharinguserbot) Untuk Masuk Ke [Grup Support](https://t.me/sharinguserbot)
+Gabung Ke [Channel Support](https://t.me/levinachannel)
 
 ### Credits
-- [Risman](https://github.com/mrismanaziz)
+- [levina](https://github.com/levina-x)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
