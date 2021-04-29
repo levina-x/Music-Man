@@ -27,18 +27,18 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Halo 👋! Saya dapat memutar musik dalam obrolan suara Grup Telegram.\n\n✣ Apakah Anda ingin saya memutar musik di obrolan suara grup Telegram Anda? Silakan klik \'📜 Panduan Menggunakan BOT 📜\' tombol di bawah untuk mengetahui bagaimana cara menggunakan saya.\n\n✣ Tambahkan [Assistant Music Man](https://t.me/botmusikman) ke grup Anda untuk memutar musik di obrolan suara grup Anda.\n\nManaged With ☕️ By [Risman](https://t.me/mrismanaziz)""",
+        f"""Halo 👋, Saya adalah veez music bot, saya dapat memutar musik di dalam voice chat group anda.\n\n✣ Tekan tombol 📚daftar & penjelasan perintah dibawah untuk mengetahui daftar perintah yang ada dan cara menggunakan saya.\n\n✣ Tambahkan [veez music asisstant](https://t.me/veezassistant) ke grup anda untuk memutar musik di dalam obrolan suara grup anda.\n\n🤖 created by: [levina](https://t.me/dlwrml)""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Panduan Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20")
+                        "📚 daftar perintah & cara menggunakan", url="https://t.me/Lunatic0de/20")
                   ],[
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Group Support", url="https://t.me/gcsupportbots"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/Lunatic0de"
+                        "Channel Support", url="https://t.me/levinachannel"
                     )
                 ]
             ]
@@ -48,15 +48,15 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""✅ **Pemutar Musik Sedang Online**""",
+      await message.reply_text("""✅ **pemutar musik sedang online**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Channel Support", url="https://t.me/levinachannel"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/dlwrml"
                     )
                 ]
             ]
@@ -65,15 +65,15 @@ async def gstart(_, message: Message):
 
 @Client.on_message(filters.command("reload") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""✅ **Pemutar Musik Sedang Online **""",
+      await message.reply_text("""✅ **pemutar musik sedang online**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Channel Support", url="https://t.me/levinachannel"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/dlwrml"
                     )
                 ]
             ]
