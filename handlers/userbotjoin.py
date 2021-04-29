@@ -32,32 +32,32 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Tambahkan saya sebagai admin grup Anda terlebih dahulu</b>",
+            "<b>Gagal!, saya harus jadi admin grup terlebih dahulu</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicMan"
+        user.first_name =  "Veez Music"
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id,"Saya bergabung di sini seperti yang Anda minta")
+        await USER.send_message(message.chat.id,"Saya bergabung ke sini sesuai permintaan anda")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>Helper sudah ada di obrolan Anda</b>",
+            "<b>Helper sudah ada di dalam grup anda</b>",
         )
         pass
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n Assistant {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dibanned dalam grup."
-            "\n\nAtau tambahkan secara manual @botmusikman ke Grup Anda dan coba lagi</b>",
+            f"<b>🛑 Flood Wait Error 🛑 \n Assistant {user.first_name} tidak dapat bergabung ke dalam grup anda, karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dibanned di dalam grup ini."
+            "\n\nAtau tambahkan secara manual @veezasisstant ke Grup anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
-            "<b>Helper userbot bergabung dengan obrolan Anda</b>",
+            "<b>Helper userbot bergabung ke dalam grup anda</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["userbotleave"]))
@@ -66,7 +66,7 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:  
         await message.reply_text(
-            f"<b>Pengguna tidak dapat meninggalkan grup Anda! Mungkin menunggu floodwaits."
+            f"<b>Pengguna tidak dapat meninggalkan grup Anda!, Mungkin karena floodwaits."
             "\n\nAtau keluarkan saya secara manual dari ke Grup Anda</b>",
         )
         return
